@@ -1,17 +1,23 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kronometre</title>
     <link rel="stylesheet" href="style.css">
-    <title>Yapım Aşamasında</title>
 </head>
 <body>
-    <div class="container">
-        <h1>Yapım Aşamasında</h1>
-        <p>Web sitemiz şu anda yapım aşamasındadır. Kısa süre içinde sizlere daha iyi hizmet verebilmek için çalışıyoruz.</p>
-        <p>Lütfen daha sonra tekrar ziyaret ediniz. Anlayışınız için teşekkür ederiz.</p>
-        <div class="saat" id="saat"></div>
+    <header>
+        <button class="buton kronometre">Kronometre</button>
+        <button class="buton zamanlayici"><a href="zamanlayıcı.html">Zamanlayıcı</a></button>
+        <button class="buton alarm">Alarm</button>
+    </header>
+    <div class="kronometre">
+        <div class="zaman" id="zaman">00:00:00</div>
+        <div class="kontroller">
+            <button id="basDurdur" class="buton basla">Başlat</button>
+            <button id="sifirla" class="buton sifirla">Sıfırla</button>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
