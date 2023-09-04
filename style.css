@@ -1,35 +1,61 @@
-/* Temel stil ayarları */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
     background-color: #000;
-    color: #fff;
+    color: #FF4500;
+    font-family: Arial, sans-serif;
     text-align: center;
 }
 
-.container {
-    margin: 100px auto;
-    max-width: 600px;
-    padding: 20px;
-    background-color: #333;
+header {
+    background-color: #000;
+    padding: 20px 0;
+}
+
+.buton {
+    background-color: #FF4500;
+    color: #000;
+    border: none;
     border-radius: 5px;
-}
-
-h1 {
-    font-size: 36px;
-    color: #ff6600;
-}
-
-p {
+    padding: 10px 20px;
+    margin: 0 10px;
     font-size: 18px;
-    line-height: 1.5;
+    cursor: pointer;
 }
 
-.saat {
-    font-size: 24px;
-    color: #ff6600;
-    margin-top: 20px;
+.buton:hover {
+    background-color: #FF4500;
 }
 
-/* Ekstra stiller ekleyebilirsiniz */
+.kronometre {
+    background-color: #222;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.zaman {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.kontroller {
+    display: flex;
+    justify-content: center;
+}
+
+body, button a {
+    color: #000;
+}
+
+#zaman {
+    color: #FF4500;
+}
+
+a {
+    text-decoration: none;
+}
