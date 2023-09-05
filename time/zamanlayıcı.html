@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zamanlayıcı</title>
+    <link rel="stylesheet" href="zstyle.css">
+</head>
+<body>
+    <header>
+        <button class="buton"><a href="index.html">Kronometre</a></button>
+    </header>    
+    <div class="zamanlayici">
+        <div class="zaman" id="zaman">00:00:00</div>
+        <div class="ayarlar">
+            <div class="ayar">
+                <label for="saatInput">Saat:</label>
+                <input type="number" id="saatInput" placeholder="0">
+            </div>
+            <div class="ayar">
+                <label for="dakikaInput">Dakika:</label>
+                <input type="number" id="dakikaInput" placeholder="0">
+            </div>
+            <div class="ayar">
+                <label for="saniyeInput">Saniye:</label>
+                <input type="number" id="saniyeInput" placeholder="0">
+            </div>
+            <div class="kontroller">
+                <button id="baslatDurdur" class="buton basla">Başlat</button>
+                <button id="sifirla" class="buton sifirla">Sıfırla</button>
+            </div>
+        </div>
+    </div>
+    <script src="zscript.js"></script>
+</body>
+</html>
