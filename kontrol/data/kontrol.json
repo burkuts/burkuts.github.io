@@ -1,4 +1,4 @@
 {
     "tarih": "00:19",
-    "girdi": "echo 'Merhaba, dünya!'"
+    "girdi": "ls"
 }
